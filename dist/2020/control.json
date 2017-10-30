@@ -178,6 +178,6 @@
     "methods": {
     },
     "html": {
-        "template": "<div %o %s data-props='%p' data-mvprops='%m'><img src class='i1'><img src class='i2'></div>"
+        "template": "<div %o %s data-props='%p'><img src class='i1'><img src class='i2'></div>"
     }
 }
