@@ -1,0 +1,183 @@
+{
+    "name": "2020",
+    "flags": {
+        "beforeafterevents": false,
+        "beforeevents": false,
+        "backcolorandalpha": true,
+        "noenabled": false,
+        "transparentbackground": false,
+        "hasdefaultborder": true,
+        "hasdisplayformat": false,
+        "hasdragevents": false
+    },
+    "customtabname":  "2020",
+    "standardproperties" :  [
+        "bordercolor",
+        "dataname",
+        "effect"
+    ],
+    "properties": {
+        "imgsrc1": {
+            "id": 1,
+            "desc": "image source 1",
+            "type": "character",
+            "tab": "custom",
+            "runtimeonly": false,
+            "findandreplace": true,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": "controls/2020/hero-before.jpg"
+        },
+        "imgsrc2": {
+            "id": 2,
+            "desc": "image source 2",
+            "type": "character",
+            "tab": "custom",
+            "runtimeonly": false,
+            "findandreplace": true,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": "controls/2020/hero-after.jpg"
+        },
+        "imgalt1": {
+            "id": 3,
+            "desc": "alternative text for image 1",
+            "type": "character",
+            "tab": "custom",
+            "runtimeonly": false,
+            "findandreplace": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": ""
+        },
+        "imgalt2": {
+            "id": 4,
+            "desc": "alternative text for image 2",
+            "type": "character",
+            "tab": "custom",
+            "runtimeonly": false,
+            "findandreplace": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": ""
+        },
+        "defaultoffset": {
+            "id": 5,
+            "desc": " How much of the before image is visible when the page loads",
+            "type": "number",
+            "tab": "custom",
+            "runtimeonly": false,
+            "findandreplace": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": 0.2
+        },
+        "orientation": {
+            "id": 6,
+            "desc": "Orientation of the before and after images ('horizontal' or 'vertical')",
+            "type": "integer",
+            "tab": "custom",
+            "runtimeonly": false,
+            "findandreplace": false,
+            "extconstant": true,
+            "intconstant": false,
+            "constrangestart": "kOrientHorz",
+            "constrangeend": "kOrientVert",
+            "min": 0,
+            "max": 1,
+            "initial": 0
+        },
+        "beforelabel": {
+            "id": 7,
+            "desc": "Set a custom before label",
+            "type": "character",
+            "tab": "custom",
+            "runtimeonly": false,
+            "findandreplace": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": "Old Version"
+        },
+        "afterlabel": {
+            "id": 8,
+            "desc": "Set a custom after label",
+            "type": "character",
+            "tab": "custom",
+            "runtimeonly": false,
+            "findandreplace": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": "New Version"
+        },
+        "nooverlay": {
+            "id": 9,
+            "desc": "Do not show the overlay with before and after",
+            "type": "boolean",
+            "tab": "custom",
+            "runtimeonly": false,
+            "findandreplace": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": "true"
+        },
+        "movewithhandleonly": {
+            "id": 10,
+            "desc": "Allow a user to swipe anywhere on the image to control slider movement.",
+            "type": "boolean",
+            "tab": "custom",
+            "runtimeonly": false,
+            "findandreplace": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": "true"
+        },
+        "clicktomove": {
+            "id": 11,
+            "desc": "Allow a user to click (or tap) anywhere on the image to move the slider to that location.",
+            "type": "boolean",
+            "tab": "custom",
+            "runtimeonly": false,
+            "findandreplace": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": "false"
+        }
+    },
+    "constants": {
+        "kOrientHorz" : {
+            "value": 0,
+            "desc": "orientation: horizontal"
+        },
+        "kOrientVert" : {
+            "value": 1,
+            "desc": "orientation: vertical"
+        }
+    },
+    "events": {
+    },
+    "methods": {
+    },
+    "html": {
+        "template": "<div %o %s data-props='%p' data-mvprops='%m'><img src class='i1'><img src class='i2'></div>"
+    }
+}
