@@ -30,7 +30,7 @@ src/8.1: JSON Export of the Omnis Studio Demo Library
 ## Installation
 1. Ensure Omnis Studio is closed.
 2. Place the folder *2020* into the *\html\controls* (not \htmlcontrols) of your Omnis Studio tree, first creating the folder if it does not already exist.
-3. Copy *ctrl_2020.js*, *jquery.twentytwenty.js* and *jquery.event.move.js* into *\html\scripts* of your Omnis Studio tree.  
+3. Copy *ctl_2020.js*, *jquery.twentytwenty.js* and *jquery.event.move.js* into *\html\scripts* of your Omnis Studio tree.  
 3. Copy *2020.min.css* into *\html\css* of your Omnis Studio tree.
 4. Add the following lines to your *\html\jsctempl.htm* file under the Omnis Studio JavaScript client:
 
@@ -40,7 +40,7 @@ src/8.1: JSON Export of the Omnis Studio Demo Library
 ```javascript
  <script type="text/javascript" src="scripts/jquery.event.move.js"></script>   
  <script type="text/javascript" src="scripts/jquery.twentytwenty.js"></script>
- <script type="text/javascript" src="scripts/ctrl_2020.js"></script>
+ <script type="text/javascript" src="scripts/ctl_2020.js"></script>
 ```
 5. Start Omnis Studio.
 6. With the libraries node selected in the Studio Browser, press the New Lib from JSON hyperlink, set the JSON Tree Path to the OMNIS-2020 folder (containing demo library exported as JSON) and select a location for your new library.
