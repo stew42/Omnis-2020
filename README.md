@@ -1,5 +1,5 @@
 # Omnis-2020
-For Omnis Studio 8.1 and above.
+JSON Control  for Omnis Studio 8.1 and above.
 
 **Omnis-2020** is a JSON defined component built around Zurb's Before-After-Script available from https://github.com/zurb/twentytwenty.
 
