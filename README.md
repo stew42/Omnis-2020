@@ -21,7 +21,7 @@ dist/scripts: Files to be copied in the Omnist Studio *\html\scripts* folder
 
 ### **lib**
 
-lib/8.1 *JS2020.lbs*: Omnis Studio library file
+lib/8.1 *JS2020.lbs*: Omnis Studio Demo library file
 
 ### **src**
 
@@ -43,5 +43,5 @@ src/8.1: JSON Export of the Omnis Studio Demo Library
  <script type="text/javascript" src="scripts/ctrl_2020.js"></script>
 ```
 5. Start Omnis Studio.
-6. With the libraries node selected in the Studio Browser, press the New Lib from JSON hyperlink, set the JSON Tree Path to the OMNIS_JS2020 folder (containing demo library exported as JSON) and select a location for your new library.
+6. With the libraries node selected in the Studio Browser, press the New Lib from JSON hyperlink, set the JSON Tree Path to the OMNIS-2020 folder (containing demo library exported as JSON) and select a location for your new library.
 7.	Press Import and the demo library should be ready to use.
